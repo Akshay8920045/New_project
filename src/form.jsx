@@ -8,6 +8,7 @@ function Form() {
   return (
     <form><input placeholder='Enter the name' className='border-s-black p-2.5'  value={name} onChange={handleChange}/>
     <input type="email" name="Email" id="email" placeholder='Enter your gmail' />
+    <input type="date" name="Date" id="date" />
     <button className='border-s-amber-300 bg-amber-600' >Submit</button>
     </form>
    
